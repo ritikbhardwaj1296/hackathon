@@ -1,5 +1,8 @@
 # Text controlled Photorealistic Image generation for Indian Roads
 
+
+We use [stable diffusion](https://github.com/CompVis/stable-diffusion/tree/main) model. Thanks to [dataset](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiZ9Mra6NmCAxVqc_UHHbdEBqkQFnoECAsQAQ&url=https%3A%2F%2Fidd.insaan.iiit.ac.in%2F&usg=AOvVaw2KScr8t0QB89GahDBS3BL7&opi=89978449) made by IIIT hyderabad we were able to finetune the stale diffusion model on properly annotated dataset with different views(rear,frot,left side, right side). We have finetuned stable diffusion model on 30% percent of images using LoRA-finetuning. Thanks to [notebook](https://github.com/huggingface/diffusers/tree/main/examples/text_to_image) provided from hugging-face. 
+
 Prompt: heavy traffic on streets
 
 ![heavy_traffic_streets_2](https://github.com/ritikbhardwaj1296/hackathon/assets/90241581/dbd72e86-cc12-42e3-ae36-eaf0f97b7abc)
